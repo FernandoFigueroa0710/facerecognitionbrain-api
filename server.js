@@ -4,6 +4,11 @@ const bcrypt = require("bcrypt");
 const cors = require("cors");
 const knex = require("knex");
 
+const signin = require("./controllers/signin");
+const register = require("./controllers/register");
+const profile = require("./controllers/profile");
+const image = require("./controllers/image");
+
 const db = knex({
   client: "pg",
   connection: {
@@ -41,8 +46,8 @@ app.post("imageurl", (req, res) => {
   image.handleApiCall(req, res);
 });
 
-app.listen(process.env.PORT || 3001, () => {
-  console.log(`I am running on port ${process.env.PORT}`);
+app.listen(3001, () => {
+  console.log(`I am running on port 3001`);
 });
 
 /*
