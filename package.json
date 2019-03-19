@@ -2,6 +2,10 @@
   "name": "facerecognitionbrain-api",
   "version": "1.0.0",
   "description": "Backend Api for the Smart brain application ",
+  "engines": {
+    "node": "11.9.0",
+    "npm": "6.9.0"
+  },
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
