@@ -2,7 +2,7 @@
 
 This is the server side of the FaceRecognitionBrain A simple, scalable, powerful application that will recognize faces from pictures connecting to a [clarifai AI](https://clarifai.com/)
 
-![alt text](https://github.oFigueroa0710/FaceRcom/FernandecognitionBrain/blob/master/src/resources/screenshots/FaceRecognitionBrain.png)
+![alt text](https://github.com/FernandoFigueroa0710/facerecognitionbrain-api/blob/master/resources/screenshots/FaceRecognitionBrain.png)
 
 ## What have I learned in this project:
 
